@@ -1,0 +1,28 @@
+\begin{tikzpicture}[mindmap,
+  level 1 concept/.append style={level distance=130,sibling angle=100},
+  extra concept/.append style={color=myuniversity!50,text=black}]
+
+  \begin{scope}[mindmap, concept color=myuniversity]
+
+    % Combinatorics and discrete mathematics 
+    \node [concept, text=white] at (5.2,-10.8) 
+       { } 
+      [clockwise from=150]
+      child [concept color=myuniversity!50, minimum size=4cm, level distance=150,  text width=3cm,] {node [concept] (ver) {PACKAGING EMBALLAGE CONDITIONNEMENT (PEC)}}
+      %child [concept color=blue!50, level distance=125] 
+        %{node [concept] (kab) {Kabatyanski, Tsfasman, Rybakov, Zykin}}
+      %child [concept color=blue!50] 
+        %{node [concept] (kch) {Kucherov, Roytberg}}
+      %child [concept color=blue!50] {node [concept] (raf) {Raffinot}}
+      child [concept color=myuniversity!50, level distance=130]
+        {node [concept] (ksh) {SCIENCE DES DONNEES (SD) }};
+
+  \end{scope}
+
+
+\node[draw=none,fill=none, white] at (5.1,-10){\Large \textbf{IUT - Dole} };
+
+\node[draw=none,fill=none] at (4.6,-12.3){\includegraphics[bb=0 0 0 0, scale =0.6]{logoF.png}};
+
+
+\end{tikzpicture}

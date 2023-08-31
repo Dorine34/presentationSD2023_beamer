@@ -20,9 +20,11 @@
   \end{scope}
 
 
-\node[draw=none,fill=none, white] at (5.1,-10){\Large \textbf{IUT - Dole} };
+\node[draw=none,fill=none, white] at (5.1,-11){\Large \textbf{IUT - Dole} };
 
-\node[draw=none,fill=none] at (4.6,-12.3){\includegraphics[bb=0 0 0 0, scale =0.6]{logoF.png}};
+\node[draw=none,fill=none, black] at (0.5,-13){\Large \textbf{Rattachée à Besançon} };
+
+\node[draw=none,fill=none] at (0,-15.3){\includegraphics[bb=0 0 0 0, scale =0.6]{LogoUFC.png}};
 
 
 \end{tikzpicture}
